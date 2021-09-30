@@ -16,7 +16,7 @@ sam3 = [[(-60, -220), (-80, -240), (-110, -220), (-120, -250), (-90, -280), (-60
 turtle.hideturtle()
 turtle.bgcolor('#ba161e')  # Dark Red
 turtle.setup(600, 700)
-turtle.title("I AM IRONMAN")
+turtle.title("♥ U 3000")
 sam1Goto = (0, 120)
 sam2Goto = (0, -30)
 sam3Goto = (0, -220)
