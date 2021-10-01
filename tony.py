@@ -1,4 +1,4 @@
-import turtle
+from turtle import *
 
 sam1 = [[(-40, 120), (-70, 260), (-130, 230), (-170, 200), (-170, 100), (-160, 40), (-170, 10), (-150, -10), (-140, 10),
            (-40, -20), (0, -20)],
@@ -13,35 +13,35 @@ sam3 = [[(-60, -220), (-80, -240), (-110, -220), (-120, -250), (-90, -280), (-60
           [(0, -250), (20, -250), (30, -260), (60, -260), (90, -280), (120, -250), (110, -220), (80, -240), (60, -220),
            (0, -220)]]
 
-turtle.hideturtle()
-turtle.bgcolor('#ba161e')  # Dark Red
-turtle.setup(600, 700)
-turtle.title("♥ U 3000")
+hideturtle()
+bgcolor('#ba161e')  # Dark Red
+setup(600, 700)
+title("♥ U 3000")
 sam1Goto = (0, 120)
 sam2Goto = (0, -30)
 sam3Goto = (0, -220)
-turtle.speed(3)
+speed(3)
 
 
 def logo(a, b):
-    turtle.penup()
-    turtle.goto(b)
-    turtle.pendown()
-    turtle.color('#fab104')  # Light Yellow
-    turtle.begin_fill()
+    penup()
+    goto(b)
+    pendown()
+    color('#fab104')  # Light Yellow
+    begin_fill()
 
     for i in range(len(a[0])):
         x, y = a[0][i]
-        turtle.goto(x, y)
+        goto(x, y)
 
     for i in range(len(a[1])):
         x, y = a[1][i]
-        turtle.goto(x, y)
-    turtle.end_fill()
+        goto(x, y)
+    end_fill()
 
 
 logo(sam1, sam1Goto)
 logo(sam2, sam2Goto)
 logo(sam3, sam3Goto)
-turtle.hideturtle()
-turtle.done()
+hideturtle()
+done()
