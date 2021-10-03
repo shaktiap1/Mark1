@@ -17,9 +17,9 @@ hideturtle()
 bgcolor('#ba161e')  # Dark Red
 setup(600, 700)
 title("♥ U 3000")
-sam1Goto = (0, 120)
-sam2Goto = (0, -30)
-sam3Goto = (0, -220)
+sam1Go = (0, 120)
+sam2Go = (0, -30)
+sam3Go = (0, -220)
 speed(3)
 
 
@@ -40,8 +40,8 @@ def logo(a, b):
     end_fill()
 
 
-logo(sam1, sam1Goto)
-logo(sam2, sam2Goto)
-logo(sam3, sam3Goto)
+logo(sam1, sam1Go)
+logo(sam2, sam2Go)
+logo(sam3, sam3Go)
 hideturtle()
 done()
