@@ -20,7 +20,7 @@ title("♥ U 3000")
 sam1Go = (0, 120)
 sam2Go = (0, -30)
 sam3Go = (0, -220)
-speed(3)
+speed(10)
 
 
 def logo(a, b):
